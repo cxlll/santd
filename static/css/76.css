@@ -1,0 +1,24 @@
+
+.san-progress-circle-wrap,
+.san-progress-line-wrap {
+    margin-right: 8px;
+    margin-bottom: 5px;
+}
+
+
+.demo-dynamic .san-btn > span {
+    margin-left: 0!important;
+}
+
+
+.demo-circle-dynamic .san-btn > span {
+    margin-left: 0!important;
+}
+
+
+.demo-format div.san-progress-circle,
+.demo-format div.san-progress-line {
+    margin-right: 8px;
+    margin-bottom: 8px;
+}
+

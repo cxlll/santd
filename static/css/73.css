@@ -1,0 +1,25 @@
+.card-container {
+  background: #F5F5F5;
+  overflow: hidden;
+  padding: 24px;
+}
+.card-container .san-tabs-card .san-tabs-content {
+  height: 120px;
+  margin-top: -16px;
+}
+.card-container .san-tabs-card .san-tabs-content .san-tabs-tabpane {
+  background: #fff;
+  padding: 16px;
+}
+.card-container .san-tabs-card san-tabs-bar {
+  border-color: #fff;
+}
+.card-container .san-tabs-card .san-tabs-bar .san-tabs-tab {
+  border-color: transparent;
+  background: transparent;
+}
+.card-container .san-tabs-card .san-tabs-bar .san-tabs-tab-active {
+  border-color: #fff;
+  background: #fff;
+}
+

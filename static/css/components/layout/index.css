@@ -1,0 +1,98 @@
+
+.trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 24px;
+    cursor: pointer;
+    transition: color .3s;
+}
+
+.trigger:hover {
+    color: #1890ff;
+}
+
+.trigger-logo {
+    height: 32px;
+    background: rgba(255,255,255,.2);
+    margin: 16px;
+}
+
+
+#components-layout-demo-top-side-2 .logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255,255,255,.2);
+    margin: 16px 28px 16px 0;
+    float: left;
+}
+
+
+#components-layout-demo-top-side-2 .logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255,255,255,.2);
+    margin: 16px 28px 16px 0;
+    float: left;
+}
+
+
+.logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255,255,255,.2);
+    margin: 16px 24px 16px 0;
+    float: left;
+}
+
+
+.responsive-logo {
+    height: 32px;
+    background: rgba(255,255,255,.2);
+    margin: 16px;
+}
+
+
+#components-layout-demo-side .logo {
+    height: 32px;
+    background: rgba(255,255,255,.2);
+    margin: 16px;
+}
+
+
+#components-layout-demo-fixed .logo {
+    width: 120px;
+    height: 31px;
+    background: rgba(255,255,255,.2);
+    margin: 16px 24px 16px 0;
+    float: left;
+}
+
+#components-layout-demo-basic {
+  text-align: center;
+}
+#components-layout-demo-basic .santd-layout-header,
+#components-layout-demo-basic .santd-layout-footer {
+  background: #7dbcea;
+  color: #fff;
+}
+#components-layout-demo-basic .santd-layout-footer {
+  line-height: 1.5;
+}
+#components-layout-demo-basic .santd-layout-sider {
+  background: #3ba0e9;
+  color: #fff;
+  line-height: 120px;
+}
+#components-layout-demo-basic .santd-layout-content {
+  background: #108ee9;
+  color: #fff;
+  min-height: 120px;
+  line-height: 120px;
+}
+#components-layout-demo-basic > .santd-layout {
+  margin-bottom: 48px;
+}
+#components-layout-demo-basic > .santd-layout:last-child {
+  margin: 0;
+}
+

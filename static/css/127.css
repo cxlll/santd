@@ -1,0 +1,71 @@
+ul.sanicons-list {
+  margin: 10px 0;
+  overflow: hidden;
+  list-style: none;
+}
+ul.sanicons-list li {
+  position: relative;
+  float: left;
+  width: 16.66%;
+  height: 100px;
+  margin: 3px 0;
+  padding: 10px 0 0;
+  overflow: hidden;
+  color: #555;
+  text-align: center;
+  list-style: none;
+  background-color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  transition: color 0.3s ease-in-out, background-color 0.3s ease-in-out;
+}
+ul.sanicons-list li .santd-icon {
+  margin: 12px 0 8px;
+  font-size: 36px;
+  transition: transform 0.3s ease-in-out;
+  will-change: transform;
+}
+ul.sanicons-list li .san-icon-class {
+  display: block;
+  font-family: 'Lucida Console', Consolas, Monaco, 'Andale Mono', 'Ubuntu Mono', monospace;
+  white-space: nowrap;
+  text-align: center;
+  transform: scale(0.83);
+}
+ul.sanicons-list li .san-icon-class .san-badge {
+  transition: color 0.3s ease-in-out;
+}
+ul.sanicons-list li:hover {
+  color: #fff;
+  background-color: #8ecafe;
+}
+ul.sanicons-list li:hover .santd-icon {
+  transform: scale(1.4);
+}
+ul.sanicons-list li:hover .santd-badge {
+  color: #fff;
+}
+ul.sanicons-list li.outlined:hover {
+  background-color: #8ecafe;
+}
+ul.sanicons-list li.copied:hover {
+  color: rgba(255, 255, 255, 0.2);
+}
+ul.sanicons-list li::after {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  color: #fff;
+  line-height: 110px;
+  text-align: center;
+  opacity: 0;
+  transition: all 0.3s cubic-bezier(0.18, 0.89, 0.32, 1.28);
+  content: 'Copied!';
+}
+ul.sanicons-list li.copied::after {
+  top: -10px;
+  opacity: 1;
+}
+
