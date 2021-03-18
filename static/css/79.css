@@ -1,4 +1,30 @@
-.san-cascader-picker {
-  width: 300px;
+
+.avatar-uploader > .san-upload {
+    width: 128px;
+    height: 128px;
+}
+
+
+.upload-list-inline .san-upload-list-item {
+    float: left;
+    width: 200px;
+    margin-right: 8px;
+}
+.upload-list-inline .san-upload-animate-enter {
+    animation-name: uploadAnimateInlineIn;
+}
+.upload-list-inline .san-upload-animate-leave {
+    animation-name: uploadAnimateInlineOut;
+}
+
+
+.san-upload-select-picture-card i {
+    font-size: 32px;
+    color: #999;
+}
+
+.san-upload-select-picture-card .san-upload-text {
+    margin-top: 8px;
+    color: #666;
 }
 
