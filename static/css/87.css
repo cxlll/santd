@@ -1,5 +1,13 @@
 
-.code-box-demo .san-btn {
-    margin-right: 1em;
+
+.santd-btn {
+  margin-right: 8px;
+  margin-bottom: 12px;
+}
+.santd-btn-group {
+  margin-right: 8px;
+}
+.santd-btn-group > .santd-btn {
+  margin-right: 0;
 }
 

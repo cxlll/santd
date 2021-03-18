@@ -30576,7 +30576,11 @@ li.santd-tree-treenode-disabled > .santd-tree-node-content-wrapper:hover {
 .santd-tree-virtual-list-container .santd-tree-virtual-list li {
   background-color: #fff;
 }
-.santd-tree-virtual-list-container .santd-tree-virtual-list-scrolling svg {
+.santd-tree-virtual-list-container .santd-tree-virtual-list li .santd-tree-switcher-unactive svg {
+  transition: none !important;
+}
+.santd-tree-virtual-list-container .santd-tree-virtual-list-scrolling *,
+.santd-tree-virtual-list-container .santd-tree-virtual-list-scrolling ::after {
   transition: none !important;
 }
 

@@ -1,8 +1,21 @@
 
-.demo-children .article h4 {
-    margin-bottom: 16px;
+.events {
+    list-style: none;
+    margin: 0;
+    padding: 0;
 }
-.demo-children .article button {
-    margin-top: 16px;
+.events .san-badge-status {
+    overflow: hidden;
+    white-space: nowrap;
+    width: 100%;
+    text-overflow: ellipsis;
+   font-size: 12px;
+}
+.notes-month {
+    text-align: center;
+    font-size: 28px;
+}
+.notes-month section {
+    font-size: 28px;
 }
 

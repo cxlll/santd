@@ -1,6 +1,51 @@
 
-    .demo {
-        margin-left: 200px;
-        overflow: hidden;
+    #components-pageheader-demo-content .wrap {
+        display: flex;
     }
+    #components-pageheader-demo-content .content {
+        flex: 1;
+    }
+    #components-pageheader-demo-content .extraContent {
+        min-width: 240px;
+        text-align: right;
+    }
+    #components-pageheader-demo-content .contentLink {
+        padding-top: 16px;
+    }
+    #components-pageheader-demo-content .contentLink a {
+        display: inline-block;
+        vertical-align: text-top;
+        margin-right: 32px;
+    }
+    #components-pageheader-demo-content .contentLink a img {
+        margin-right: 8px;
+    }
+
+
+#components-pageheader-demo-actions .wrap {
+    display: flex;
+}
+#components-pageheader-demo-actions .content.padding {
+    padding-left: 40px;
+}
+#components-pageheader-demo-actions .content .description {
+    display: table;
+}
+#components-pageheader-demo-actions .description .term {
+    display: table-cell;
+    margin-right: 8px;
+    padding-bottom: 8px;
+    white-space: nowrap;
+    line-height: 20px;
+}
+#components-pageheader-demo-actions .description .detail {
+    display: table-cell;
+    padding-bottom: 8px;
+    width: 100%;
+    line-height: 20px;
+}
+#components-pageheader-demo-actions .extraContent {
+    min-width: 240px;
+    text-align: right;
+}
 
